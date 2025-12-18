@@ -1,36 +1,33 @@
 body {
-  align-items: center;
+  display: inline-block;
 }
 
 ul {
   text-decoration: none;
+  list-style: none;
 }
 
 a {
   text-decoration: none;
   color: #fff;
 }
+
+.logo{
+ font-family: "Saira Stencil One", sans-serif;
+ font-size: 45px;
+ font-weight: 200;
+ font-style: normal;
+ color: #000;
+ position: relative;
+}
 .home img{
-  max-height: 90%;
+  max-height: 100%;;
   max-width: 100%;
   border-radius: 3px;
   position: absolute;
-  bottom: 20%;
+  
 }
 
 .menu {
   position: relative;
-}
-
-.menu ul {
-  list-style: none;
-}
-
-.menu li {
-  background: black;
-  width: 200px;
-  margin: 10px;
-  padding: 5px;
-  text-align: center;
-  border-radius: 10px;
 }
