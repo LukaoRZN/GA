@@ -18,13 +18,11 @@ a {
  font-weight: 200;
  font-style: normal;
  color: #000;
- position: relative;
 }
 .home img{
   max-height: 100%;;
   max-width: 100%;
   border-radius: 3px;
-  position: absolute;
   
 }
 
