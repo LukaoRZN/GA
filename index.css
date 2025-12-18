@@ -7,4 +7,9 @@
 
 .menu {
   position: relative;
+  text-align: center;
+}
+
+.menu ul {
+  list-style: none;
 }
