@@ -1,5 +1,4 @@
 body {
-  display: inline;
 }
 
 ul {
@@ -9,6 +8,7 @@ ul {
 
 a {
   text-decoration: none;
+  color: #000;
 }
 
 .logo{
@@ -16,24 +16,28 @@ a {
  font-size: 45px;
  font-weight: 200;
  font-style: normal;
- color: #000;
+ color: #fff;
+ position: relative;
+ top: 75%;
 }
 .home img{
   max-height: 100%;;
   max-width: 100%;
-  border-radius: 3px;
+  border-radius: 7px;
+  position: absolute;
   
 }
 
 .menu {
-  color: #000;
+  color: #fff;
+  position: absolute;
 }
 
 .menu li {
-  background: red;
+  background: #fff;
   margin: 10px;
   padding: 7px;
   width: 160px;
-  border-radius: 10%;
+  border-radius: 5%;
   text-align: center;
 }
