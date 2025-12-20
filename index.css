@@ -1,5 +1,5 @@
 body {
-  display: inline-block;
+  display: inline;
 }
 
 ul {
@@ -9,7 +9,6 @@ ul {
 
 a {
   text-decoration: none;
-  color: #fff;
 }
 
 .logo{
@@ -27,5 +26,14 @@ a {
 }
 
 .menu {
-  position: relative;
+  color: #000;
+}
+
+.menu li {
+  background: red;
+  margin: 10px;
+  padding: 7px;
+  width: 160px;
+  border-radius: 10%;
+  text-align: center;
 }
